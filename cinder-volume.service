@@ -1,0 +1,11 @@
+[Unit]
+Description=OpenStack Cinder Volume Server
+After=syslog.target network.target
+
+[Service]
+Type=simple
+User=cinder
+ExecStart=/usr/bin/cinder-volume
+
+[Install]
+WantedBy=multi-user.target
