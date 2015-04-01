@@ -1,6 +1,6 @@
 Name     : cinder-storage-services
 Version  : 2015.1.0b3
-Release  : 2
+Release  : 3
 Source0  : cinder-volume.service
 Summary  : Cinder Storage Services
 Group    : Development/Tools
